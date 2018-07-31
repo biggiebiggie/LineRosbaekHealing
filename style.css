@@ -189,7 +189,8 @@ p {
 
 #footer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    background-color: antiquewhite;
 }
 
 #kontakt {
@@ -206,13 +207,15 @@ p {
 }
 
 #some_face {
-    background-color: aqua;
-    width: 10vw;
+    background-image: url(img/fb_real.svg);
+    background-repeat: no-repeat;
+    width: 5vw;
     grid-column: 3/4
 }
 
 #some_insta {
-    background-color: coral;
+    background-image: url(img/insta_real.svg);
+    background-repeat: no-repeat;
     width: 10vw;
     grid-column: 3/4;
 }
